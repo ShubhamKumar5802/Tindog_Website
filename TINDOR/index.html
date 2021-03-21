@@ -24,15 +24,24 @@
 </head>
 
 <body>
-
+  
   <section id="title">
 
     <!-- Nav Bar -->
     <div class="nav1">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="">
-          <div style="font-size: 2rem; font-weight: bolder;">tindog</div>
+          <div style="font-size: 2rem; font-weight: bolder;">tindog <i class="fas fa-fire"></i></div>
         </a>
+
+        <div class="input-group rounded">
+          <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+            aria-describedby="search-addon" />
+          <span class="input-group-text border-0" id="search-addon">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -40,19 +49,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
-
+<MARquee class="marq1">We have come with a new update, Install it for enjoying new features</MARquee>
     <!-- Title -->
     <div class="container">
       <div class="row">
@@ -60,15 +69,13 @@
           <div>
             <h1 id="heading1">Meet new and interesting dogs nearby.</h1>
             <button type="button" class="btn btn-dark btn-lg download-button buttn1"><i class="fab fa-apple"></i>
-              Download</button>
+              <a class="linking1" href="https://tinder.com/en">Download</a></button>
             <button type="button" class="btn btn-outline-light btn-lg download-button "><i
-                class="fab fa-google-play"></i> Download</button>
+                class="fab fa-google-play"></i> <a class="linking1" href="https://tinder.com/en">Download</a> </button>
           </div>
         </div>
         <div class="col-md-6">
-          <div>
             <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
-          </div>
         </div>
       </div>
     </div>
@@ -95,88 +102,139 @@
     </div>
   </section>
 
-
   <!-- Testimonials -->
-
   <section id="testimonials">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonialsicon" src="images/dog-img.jpg" alt="dog-profile" align="center">
+          <em>-Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2>My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonialsicon" src="images/lady-img.jpg" alt="lady-profile">
+          <em>-Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item">
+          <h2>Finding someone who love me life long</h2>
+          <img class="testimonialsicon" src="images/dog2.jpg" alt="" align="center">
+          <em>-Rockey, India</em>
+        </div>
+        <div class="carousel-item">
+          <h2>Will you play with me.......?</h2>
+          <img class="testimonialsicon" src="images/dog3.jpg" alt="" align="center">
+          <em>-Dower, Austrlia</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
   </section>
-
 
   <!-- Press -->
-
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <div class="row">
+      <div class="col-md-3">
+
+        <img class="logoicon" src="images/techcrunch.png" alt="tc-logo">
+      </div>
+      <div class="col-md-3">
+        <img class="logoicon" src="images/tnw.png" alt="tnw-logo">
+
+      </div>
+      <div class="col-md-3">
+        <img class="logoicon" src="images/bizinsider.png" alt="biz-insider-logo">
+
+      </div>
+      <div class="col-md-3">
+        <img class="logoicon" src="images/mashable.png" alt="mashable-logo">
+      </div>
+    </div>
 
   </section>
-
 
   <!-- Pricing -->
-
   <section id="pricing">
-
-    <h2>A Plan for Every Dog's Needs</h2>
+    <h2 style="border-color: black;border: solid;border-radius: 25%;">A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
-
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Free</h2>
+          </div>
+          <div class="card-body">
+            <h3>Tril Version</h3>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-outline-dark btn-lg btn-block" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">$49 / mo</h2>
+          </div>
+          <div class="card-body">
+            <h3>Labrador</h3>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-outline-dark btn-lg btn-block" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">$99 / mo</h2>
+          </div>
+          <div class="card-body">
+            <h3>Mastiff</h3>
+            <p>Unlimited Matches(Pirority Listing)</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-outline-dark btn-lg btn-block" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-
 
   <!-- Call to Action -->
-
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+    <h3 class="ctahedding">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg btnend"><i class="fab fa-apple"></i>
+      <a class="linking12" href="https://tinder.com/en">Download</a></button>
+    <button type="button" class="btn btn-outline-light btn-lg btnend "><i
+        class="fab fa-google-play"></i><a class="linking12" href="https://tinder.com/en">Download</a> </button>
   </section>
 
-
   <!-- Footer -->
-
   <footer id="footer">
-
+    <div>
+     <a class="linking" href="https://www.facebook.com/profile.php?id=100057333369561"> <i class="footericon fab fa-facebook-square fa-2x"></i> </a>
+     <a class="linking" href="mailto:sktovisit@gmail.com"> <i class="footericon fas fa-envelope fa-2x"></i></a>
+     <a class="linking" href="https://twitter.com/Shubham94958733"> <i class="footericon fab fa-twitter fa-2x"></i></a>
+      <a class="linking" href="https://www.instagram.com/shubham_shandilya21/"><i class="footericon fab fa-instagram-square fa-2x"></i></a>
+    </div>
     <p>© Copyright 2018 TinDog</p>
-
   </footer>
 
-
 </body>
-
 </html>

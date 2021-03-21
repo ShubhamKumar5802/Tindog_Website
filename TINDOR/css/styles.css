@@ -1,8 +1,28 @@
 body{
     font-family: "Montserrat";
 }
+h3,h2,h1{
+    font-family: "Montserrat";
+}
+
+p{
+    color: gray;
+}
+.linking12{  
+    margin: 1rem;
+    color:white;
+}
+.linking1{
+    
+    color: white;
+}
 #title{
-    background-color: #ff4c68;
+    background-color: #e02020;
+}
+.marq1{
+    font-family: cursive;
+    background-color:yellow;
+    color: blue;
 }
 #heading1{
     color: azure;
@@ -15,6 +35,7 @@ body{
 }
  .container{
     padding-top: 4rem;
+    background-color: #ff4c68;
     
  }
 .nav1{
@@ -29,17 +50,35 @@ body{
     font-size: 1.2rem;
 }
 .download-button{
-   margin: 5% 8% 15% 0%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 .title-img{
-    width: 64%;
+    width: 67%;
     padding-left: 6rem;
     margin-left: 5rem;
     transform: rotate(20deg);
-    height: 28rem;
+    height: 34rem;
+}
+@media(max-width:766px){
+    .container{
+        text-align: center;
+    }
+    .title-img{
+        transform: rotate(0);
+        margin-right: 30rem;
+        text-align: center;
+    }
+
 }
 .buttn1{
     margin-left: 2rem;
+}
+#features{
+    background-color: beige;
+    position: relative;
+    z-index: 1;
+
 }
 .icon1{
     color: #e45858;
@@ -49,6 +88,56 @@ body{
 .icon1:hover{
     color: #ff4c68;
 }
-p{
-    color: gray;
+#testimonials{
+    padding: 5rem;
+    background-color: #f55b5b;
+    font-family: "Montserrat";
+    text-align: center;
+    size: 50rem;
+    color: white;
+    padding-bottom: 3rem;
+}
+.testimonialsicon{
+    border-radius: 100%;
+    width: 11rem;
+    margin: 4%;
+}
+#press{
+    padding: 2rem;
+    background-color: #ff4c68;
+    text-align: center;
+}
+.logoicon{
+    text-align: center;
+    margin: 7%;
+    width: 90%;
+}
+#pricing{
+    background-color: white;
+    text-align: center;
+    padding:3rem;
+}
+#cta{
+    padding: 3rem;
+    color: white;
+    text-align: center;
+    background-color: #ff4c68;
+    
+}
+.ctahedding{
+    font-family: cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+.btnend{
+    margin: 1rem;
+}
+#footer{
+    padding: 2rem;
+    text-align: center;
+    background-color:white;
+}
+.footericon{
+    margin: 1rem;
 }
