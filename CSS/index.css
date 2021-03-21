@@ -1,0 +1,27 @@
+
+.top{
+    background-color: #c7ffd8;
+    height:150px;
+    width: 150px;
+    border: blue solid 10px;
+    padding: 10px;
+}
+.middle{
+    background-color: brown;
+    height: 150px;
+    width: 150px;
+    border: black solid 15px;
+    position: absolute;
+    left: 198px;
+    /* margin-left: 190px; */
+}
+.bottom{
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: black solid 10px;
+    position: absolute;
+    left: 378px;
+    top: 378px;
+    /* margin-left: 370px; */
+}

@@ -1,0 +1,41 @@
+h4{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: rgb(223, 247, 213);
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(12, 196, 12);
+    /* margin: 0px; */
+}
+.bottomcloud{
+    position: relative;
+    right: 200px;
+    bottom: 20px;
+}
+.topcloud{
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+.top{
+    position: relative;
+    top: 50px;
+    padding-top: 30px;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+}
+.tableofskill{
+    text-align: left;    
+}
+.skillrow{
+    float: left;
+  height: 150px;
+  width: 150px;
+  margin-left: 350px;
+  margin-right: 10px;
+}
